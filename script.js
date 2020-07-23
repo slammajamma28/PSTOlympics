@@ -7,10 +7,10 @@ $(document).ready(function() {
         // Do da monster math
         var weight_total = 0;
         var split_word = word.split("");
-        one_point = ["A", "D", "I", "L", "N", "O", "R", "S", "T", "U"];
+        one_point = ["A", "E", "I", "L", "N", "O", "R", "S", "T", "U"];
         two_point = ["D", "G"];
         three_point = ["B", "C", "M", "P"];
-        four_point = ["F", "V", "W", "Y"];
+        four_point = ["F", "H", "V", "W", "Y"];
         five_point = ["K"];
         eight_point = ["J", "X"];
         ten_point = ["Q", "Z"];
@@ -37,7 +37,7 @@ $(document).ready(function() {
             } else {
                 weight_total = weight_total + 0;
             }
-            console.log("Weight total after " + this_letter + " is  " + weight_total);
+            console.log("Weight total after " + this_letter + " is " + weight_total);
         }
         
         $("#total").text(weight_total);
