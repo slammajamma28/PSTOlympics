@@ -1,0 +1,25 @@
+body {
+    background-color: midnightblue;
+    text-align: center;
+}
+
+img {
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 25%;
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: red;
+    font-size: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: orange;
+}
