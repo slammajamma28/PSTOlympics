@@ -48,7 +48,7 @@ $(document).ready(function() {
     });
 
     $("#dictionaryWord").click(function() {
-        #window.location = "https://scrabble.merriam.com/finder/" + $("#daword").val().toLowerCase();
+        //window.location = "https://scrabble.merriam.com/finder/" + $("#daword").val().toLowerCase();
         window.location = "https://scrabble.hasbro.com/en-us/tools#dictionary";
     });
 
