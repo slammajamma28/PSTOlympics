@@ -48,7 +48,7 @@ $(document).ready(function() {
     });
 
     $("#dictionaryWord").click(function() {
-        window.location = "https://www.dictionary.com/browse/" + $("#daword").val().toLowerCase() + "?s=t";
+        window.location = "https://scrabble.merriam.com/finder/" + $("#daword").val().toLowerCase();
     });
 
 });
